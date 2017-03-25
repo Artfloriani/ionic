@@ -397,7 +397,7 @@ export class Slides extends Ion {
   /**
    * @hidden
    */
-  touchEventsTarget: 'container';
+  touchEventsTarget = 'container';
 
   // autoplay
   /**
